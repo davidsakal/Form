@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <h1>Цікаві Опитанування</h1>
+</head>
+<body>
+    <form>
+        <label>
+            Найкращий місяць для відпустки <input type="date">
+        </label>
+        <fieldset>
+            <legend>Яка кава вам подобається</legend>
+                <label> <input type="radio" name="coffee" value="Еспресо">Еспресо</label> <br>
+                <label> <input type="radio" name="coffee" value="Латте">Латте</label> <br>
+                <label> <input type="radio" name="coffee" value="Американо">Американо</label> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Де б ви хотіли відпочити</legend>
+            <label> <input type="radio" name="relax" value="Одесса" checked>Одесса</label> <br>
+            <label> <input type="radio" name="relax" value="Єгипет">Єгипет</label> <br>
+            <label> <input type="radio" name="relax" value="Турція">Турція</label> <br>
+            <label> <input type="radio" name="relax" value="Мальдіви">Мальдіви</label> <br>
+        </fieldset>
+        <label>
+
+           На якому автомобілі ви б хотіли кататися <select>
+                <option>Лада</option>
+                <option>Шкода</option>
+                <option>Жигуль</option>
+                <option>Порше</option>
+                <option>Шевроле</option>
+            </select>
+        </label>
+        <br>
+        <label>
+        Що вамподобається більше
+            <select>
+                 <optgroup label="Овочі">
+                    <option>Помідори</option>
+                    <option>Кукуруза</option>
+                    <option>Капуста</option>
+                </optgroup>
+                <optgroup label="Фрукти">
+                    <option>кавун</option>
+                    <option>яблоко</option>
+                    <option>Диня</option>
+                </optgroup>
+            </select>
+        </label>
+        <br>
+        <input type="submit" value="Надіслати відповіді">
+        <input type="reset" value="Reset">
+    </form>
+  
+<br>
+    <a href="./About.html">Home</a>
+</body>
+</html>
